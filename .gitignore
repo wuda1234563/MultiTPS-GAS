@@ -1,0 +1,54 @@
+# Unreal Engine generated output
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Project content assets are managed outside this Git repository.
+# Do not commit any root or plugin Content directory.
+/**/Content/
+
+# Visual Studio / Rider / VS Code local state
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.opendb
+
+# Build and packaging output
+/Build/Linux/
+/Build/Windows/
+/Build/Android/
+/Build/HTML5/
+*.pdb
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Unreal editor local files
+*.opensdf
+*.sdf
+*.sln
+
+# Plugin-generated output
+/Plugins/**/Binaries/
+/Plugins/**/Intermediate/
+/Plugins/**/Saved/
+
+# Keep source, config, content assets, project files and plugin descriptors tracked.
