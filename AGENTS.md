@@ -57,7 +57,7 @@ docs/enemy-configuration
 
 ### 2.3 提交规范
 
-提交信息采用 Conventional Commits 风格：
+提交信息采用 Conventional Commits 的结构，但提交说明统一使用中文：
 
 ```text
 <type>(<scope>): <imperative summary>
@@ -76,7 +76,8 @@ docs/enemy-configuration
 要求：
 
 - 一个提交只表达一个完整、可解释的变更；
-- 提交标题使用英文祈使句，简短明确，不使用“修改一下”“完成开发”等无信息量描述；
+- 提交标题和正文使用中文，简短明确，不使用“修改一下”“完成开发”等无信息量描述；
+- 保留英文 `type` 和可选的英文 `scope`，以保持提交类型可检索；具体说明使用中文；
 - 不提交编译产物、缓存、临时文件、编辑器用户配置、敏感信息或本机专属路径；
 - 大型功能应拆分为可独立审查的提交，例如先提交接口/数据结构，再提交运行逻辑，最后提交配置和文档；
 - 如果一个提交无法说明“为什么需要它”，说明提交粒度或变更范围可能不合适。
@@ -84,9 +85,9 @@ docs/enemy-configuration
 示例：
 
 ```text
-feat(gas): add replicated character attribute set
-fix(weapon): prevent client-only hit confirmation
-docs(enemy): document montage and ability setup
+feat(gas): 新增可复制的角色属性集
+fix(weapon): 修复客户端单独确认命中问题
+docs(enemy): 补充敌人 Montage 和 Ability 配置说明
 ```
 
 ### 2.4 标准开发流程
