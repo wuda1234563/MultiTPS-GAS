@@ -8,6 +8,10 @@
 # Do not commit any root or plugin Content directory.
 /**/Content/
 
+# 项目本地说明和学习笔记不参与 Git 同步。
+/AGENTS.md
+/Docs/
+
 # Visual Studio / Rider / VS Code local state
 .vs/
 .idea/
